@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="76x76" href="./apple-touch-icon.png">
+    <link rel="icon" href="<%= BASE_URL %>favicon.png">
+    <title>Ups</title>
+  </head>
+  <body class="d-flex flex-column h-100">
+    <div class="col" style="background-color: #cd1f2c; position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;">
+      <img id="anuel" src="./anueltransparente.png" alt="Real hasta la muerte" style="
+      position: absolute;
+      bottom: 0;
+      left: 0;">
+      <img src="./ups.png" alt="404, te has equivocado" style="width: 90vw; margin-top: 5vw; margin-left: 5vw;">
+    </div>
+
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+  </body>
+
+  <style>
+    @media only screen and (max-width: 768px) {
+      #anuel {
+        height: 50vw;
+        width: 50vw;
+      }
+    }
+    @media only screen and (min-width: 769px) {
+      #anuel {
+        height: 35vw;
+        width: 35vw;
+      }
+    }
+  </style>
+</html>
